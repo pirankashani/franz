@@ -1,0 +1,114 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans";
+
+html, body, footer, .footer {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background: #eeeeee;
+  color: #1a1a1a;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.TrelloExport {
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, legend, .bdate {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+h1 {
+  background-color: #DA291C;
+  color: #eeeeee;
+  padding: 10px;
+  font-size: 1.7em;
+}
+
+h2 {
+  color: #333333;
+  padding: 10px;
+  font-size: 1.3em;
+  border: solid;
+  border-width: 4px;
+  border-color: #DA291C;
+  background-color: #CCCCCC;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #999999;
+  padding: 10px 10px 0 10px;
+  font-size: 1.30em;
+}
+
+h4 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+
+p {
+  padding-left: 10px;
+  font-size: 1em;
+  line-height: 100%;
+  margin: 1px;
+  padding: 4px;
+  }
+ul, ol {
+padding-left:2em;
+ margin: 1px;
+
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.FluidYellow {
+  background-color: #F2F2F2;
+}
+
+a:link{
+  color:blue;
+}
+a:visited{
+  color:#999999;
+}
+a:hover{
+  color:orange;
+}
+a:focus{
+  color:#999999;
+}
+a:active{
+  color:red;
+}
